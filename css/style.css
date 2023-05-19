@@ -1,0 +1,127 @@
+.head{}
+.head nav{}
+.head nav ul{}
+.head nav ul li{
+    display:inline ;
+}
+.head nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.secondpart{
+    
+}
+.one{
+    overflow: scroll;
+    height: 300px;
+    text-align: justify;
+    padding: 10px;
+}
+.hero{
+    border: 5px solid peru;
+    width: 100%;
+    height: 350px;
+    border-radius: 40px 0;
+}
+.number{
+    background: url(../images/01.jpg);
+    width: 100%;
+    height: 500px;
+}
+.nula{
+    color: aliceblue;
+    height: 150px;
+    width: 450px;
+    padding: 10px;
+    border: 2px solid rgb(216, 201, 201);
+    margin-top: 70px;
+    margin-left: 40px;
+    animation: more infinite 30s;
+}
+@keyframes more {
+    0%{
+        margin-top:50px;
+        margin-left:40px;
+    }
+    25%{
+        margin-top:340px;
+        margin-left:40px;
+    }
+    50%{
+        margin-top:340px;
+        margin-left:450px;
+    }
+    75%{
+        margin-top:50px;
+        margin-left:450px;
+    }
+    100%{
+        margin-top:50px;
+        margin-left:40px;
+    }
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+td, th{
+    border: 1px solid black;
+    padding: 0 10px;
+}
+.nontu img{
+    width: 100%;
+    height: 200px;
+}
+.nontu{
+    text-align: justify;
+}
+.nontu button{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 60%;
+}
+.field{}
+.field img{
+    height: 400px;
+    width: 300px  ;
+}
+.bat{
+    transition: transform 0.2s ease-in-out;
+}
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: 100% 0%;
+}
+.boll{
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    left: 500px;
+    transition: transform 2s ease-in-out 0.2s;
+    top: -20px;
+}
+.field:hover .boll{
+    transform: translate(600px, -500px); 
+}
+.clander ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+.clander li{
+    list-style: none;
+    font-size: 22px;
+    background: rgb(107, 221, 150);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.friday{
+    background: red !important;
+}
