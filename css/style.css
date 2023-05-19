@@ -1,3 +1,12 @@
+p{
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+h1{
+    font-family: 'Aladin', cursive;
+    font-size: 50px;
+}
 .head{}
 .head nav{}
 .head nav ul{}
@@ -9,6 +18,13 @@
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
+}
+.head nav ul li a:hover{
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    background: black;
 }
 .secondpart{
     
